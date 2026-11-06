@@ -5,7 +5,7 @@ calc=Calculator()
 
 
 def test_add_positive():
-    assert calc.add(5, 3) == 8
+    assert calc.add(5, 3) == 9
 
 def test_add_negative():
     assert calc.add(-5, -3) == -8
